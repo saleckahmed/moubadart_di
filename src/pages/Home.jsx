@@ -1,12 +1,13 @@
-import React from "react";
+import logo from ".././assets/FridaysImage/friday1.jpeg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="text-right">
-      {/* Hero Section */}
+
       <section className="h-screen bg-gray-900 bg-cover bg-center flex items-center justify-center relative">
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute z-10 inset-0 bg-black/60"></div>
+<img src={logo} className="w-full h-full object-center object-cover absolute z-0" />
         <div className="relative z-10 text-white text-center px-6 max-w-4xl">
           <h1 className="text-3xl md:text-5xl font-medium mb-6">
             مبادرة طلابية لإفطار الصائم وسقاية المحتاجين
@@ -15,23 +16,25 @@ const Home = () => {
             معاً لننشر الخير ونرسم البسمة في رمضان
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
+            <button
+            disabled={true}
               to="/donate"
               className="bg-gray-800 px-6 py-3 rounded-md text-lg hover:bg-gray-700 transition border border-gray-600"
             >
               تبرع الآن
-            </Link>
-            <Link
+            </button>
+            <button
+              disabled={true}
               to="/volunteer"
               className="bg-white text-gray-900 px-6 py-3 rounded-md text-lg hover:bg-gray-100 transition"
             >
               انضم كمتطوع
-            </Link>
+            </button>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
+
       <section id="about" className="py-16 px-6 md:px-20 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-medium mb-6 text-gray-800 text-right border-b pb-3">
@@ -43,8 +46,8 @@ const Home = () => {
           >
             نحن طلاب الدفعة الأخيرة من تخصص
             <span dir="ltr" className="font-medium text-gray-800">
-              {" "}
-              Développement Informatique{" "}
+            
+              Développement Informatique
             </span>
             ، نسعى لخدمة المجتمع من خلال مبادرة إفطار الصائم وسقاية المحتاجين
             وكسوة اليتامى في شهر رمضان المبارك. هدفنا هو نشر روح التضامن
@@ -53,7 +56,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Events Section */}
+     
       <section id="events" className="py-16 px-6 md:px-20 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-medium mb-6 text-gray-800 border-b pb-3">
@@ -72,7 +75,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Volunteer Section */}
+
       <section id="volunteer" className="py-16 px-6 md:px-20 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-medium mb-6 text-gray-800 border-b pb-3">

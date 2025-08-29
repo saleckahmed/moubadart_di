@@ -25,7 +25,7 @@ export default function EventIftar() {
       id: 4,
       title: "الجمعة 4",
       image:
-        "https://images.unsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "https://images.junsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     },
   ];
 
@@ -49,7 +49,7 @@ export default function EventIftar() {
               <div className="h-full relative">
                 <img
                   src={friday.image}
-                  alt={friday.title}
+                 
                   className="w-full h-full object-cover"
                 />
 

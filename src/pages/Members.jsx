@@ -5,6 +5,9 @@ import oussama from ".././assets/Members/oussama.jpeg";
 import moulay from ".././assets/Members/moulay.jpeg";
 import meinouh from ".././assets/Members/meinouh.jpeg";
 import yahya from ".././assets/Members/yahya.jpeg";
+import dlg2 from ".././assets/Members/dlg2.jpeg";
+import ebn from ".././assets/Members/ebn.jpeg";
+import motkarval from ".././assets/Members/motkarval.jpeg";
 
 const Members = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -27,7 +30,7 @@ const Members = () => {
     {
       id: 3,
       name: "محمد السالك أحمد",
-      role: "مسؤول تكنولوجيا المعلومات",
+      role: "مسؤول التطوير والمعلوماتية",
       image: dlg,
     },
 
@@ -41,7 +44,7 @@ const Members = () => {
     {
       id: 5,
       name: "أجه يرب صدف",
-      role: "نائب مسؤول تكنولوجيا المعلومات",
+      role: "نائب مسؤول التطوير والمعلوماتية",
       image: ege,
     },
     {
@@ -76,16 +79,12 @@ const Members = () => {
       id: 10,
       name: "محمد عالي ابنو",
       role: "عضو",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
-    },
+      image:dlg2  },
     {
       id: 11,
       name: "محمد المختار",
       role: "عضو",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
-    },
+      image:motkarval   },
     {
       id: 12,
       name: "مولاي براهيم",
@@ -96,9 +95,7 @@ const Members = () => {
       id: 13,
       name: "محمد سالم ابنو",
       role: "عضو",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
-    },
+      image:ebn    },
     {
       id: 14,
       name: "نفيسة بديه",
@@ -167,6 +164,20 @@ const Members = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
     },
     {
+      id: 24,
+      name: "اماتي ماديك",
+      role: "مسؤولة النش",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
+    },
+    {
+      id: 25,
+      name: "ملكة عالي",
+      role: "عضو",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0Ikid94Ya1cQByKfVk8k5-v28o0mGW4SOA&s",
+    },
+     {
       id: 24,
       name: "محمد بدر",
       role: "عضو",

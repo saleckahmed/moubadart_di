@@ -14,20 +14,18 @@ const Navbar = () => {
 
         <ul className="hidden md:flex space-x-6 items-center">
           <li>
-            <Link to="/" className="hover:text-gray-600 transition text-gray-800">الرئيسية</Link>
+            <Link to="/moubadart_di" className="hover:text-gray-600 transition text-gray-800">الرئيسية</Link>
           </li>
           <li>
             <Link to="/events" className="hover:text-gray-600 transition text-gray-800">الفعاليات</Link>
           </li>
           <li>
-            <Link to="/members" className="hover:text-gray-600 transition text-gray-800">المعرض</Link>
+            <Link to="/members" className="hover:text-gray-600 transition text-gray-800">الأعضاء</Link>
           </li>
-          <li>
-            <Link to="/contact" className="hover:text-gray-600 transition text-gray-800">اتصل بنا</Link>
-          </li>
+         
         </ul>
 
-        {/* Mobile Menu Button */}
+      
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-xl focus:outline-none text-gray-800"
@@ -36,21 +34,19 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+     
       {isOpen && (
         <ul className="md:hidden bg-white border-t border-gray-200 flex flex-col space-y-3 py-4 px-6">
           <li>
-            <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الرئيسية</Link>
+            <Link to="/moubadart_di" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الرئيسية</Link>
           </li>
           <li>
             <Link to="/events" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الفعاليات</Link>
           </li>
           <li>
-            <Link to="/members" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">المعرض</Link>
+            <Link to="/members" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الأعضاء</Link>
           </li>
-          <li>
-            <Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">اتصل بنا</Link>
-          </li>
+        
         </ul>
       )}
     </nav>

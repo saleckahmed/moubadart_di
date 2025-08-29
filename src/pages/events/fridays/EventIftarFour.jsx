@@ -1,4 +1,5 @@
 import IftarDetails from "../../../components/IftarDetails";
+import UnderDev from "../../../components/UnderDev";
 
 const EventIftarFour = () => {
   const eventData = {
@@ -16,8 +17,8 @@ const EventIftarFour = () => {
     ],
     video: "https://www.youtube.com/embed/6stlCkUDG_s",
   };
-
-  return <IftarDetails eventData={eventData} />;
+  return <UnderDev />;
+  // return <IftarDetails eventData={eventData} />;
 };
 
 export default EventIftarFour;
