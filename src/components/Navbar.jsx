@@ -17,10 +17,10 @@ const Navbar = () => {
             <Link to="/moubadart_di" className="hover:text-gray-600 transition text-gray-800">الرئيسية</Link>
           </li>
           <li>
-            <Link to="/moubadart_di/events" className="hover:text-gray-600 transition text-gray-800">الفعاليات</Link>
+            <Link to="/events" className="hover:text-gray-600 transition text-gray-800">الفعاليات</Link>
           </li>
           <li>
-            <Link to="/moubadart_di/members" className="hover:text-gray-600 transition text-gray-800">الأعضاء</Link>
+            <Link to="/members" className="hover:text-gray-600 transition text-gray-800">الأعضاء</Link>
           </li>
          
         </ul>
@@ -38,13 +38,13 @@ const Navbar = () => {
       {isOpen && (
         <ul className="md:hidden bg-white border-t border-gray-200 flex flex-col space-y-3 py-4 px-6">
           <li>
-            <Link to="/moubadart_di/" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الرئيسية</Link>
+            <Link to="/moubadart_di" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الرئيسية</Link>
           </li>
           <li>
-            <Link to="/moubadart_di/events" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الفعاليات</Link>
+            <Link to="/events" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الفعاليات</Link>
           </li>
           <li>
-            <Link to="/moubadart_di/members" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الأعضاء</Link>
+            <Link to="/members" onClick={() => setIsOpen(false)} className="hover:text-gray-600 transition text-gray-800 block py-2">الأعضاء</Link>
           </li>
         
         </ul>

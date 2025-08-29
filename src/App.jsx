@@ -19,15 +19,15 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/moubadart_di/" element={<Home />} />
-        <Route path="/moubadart_di/events" element={<Events />} />
-        <Route path="/moubadart_di/events/iftar" element={<EventIftar />} />
-        <Route path="/moubadart_di/events/iftar/1" element={<EventIftarOne />} />
-        <Route path="/moubadart_di/events/iftar/2" element={<EventIftarTwo />} />
-        <Route path="/moubadart_di/events/iftar/3" element={<EventIftarThree />} />
-        <Route path="/moubadart_di/events/iftar/4" element={<EventIftarFour />} />
-        <Route path="/moubadart_di/events/sikayat" element={<Sikayat />} />
-        <Route path="/moubadart_di/events/kiswa" element={<Kiswa />} />
-        <Route path="/moubadart_di/members" element={<Members />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/events/iftar" element={<EventIftar />} />
+        <Route path="/events/iftar/1" element={<EventIftarOne />} />
+        <Route path="/events/iftar/2" element={<EventIftarTwo />} />
+        <Route path="/events/iftar/3" element={<EventIftarThree />} />
+        <Route path="/events/iftar/4" element={<EventIftarFour />} />
+        <Route path="/events/sikayat" element={<Sikayat />} />
+        <Route path="/events/kiswa" element={<Kiswa />} />
+        <Route path="/members" element={<Members />} />
       </Routes>
     </>
   );
