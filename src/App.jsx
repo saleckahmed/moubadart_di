@@ -14,10 +14,10 @@ import Sikayat from "./pages/Sikayat";
 function App() {
   return (
     <>
-      {/* <Home/> */}
+     
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/moubadart_di" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/iftar" element={<EventIftar />} />
         <Route path="/events/iftar/1" element={<EventIftarOne />} />
